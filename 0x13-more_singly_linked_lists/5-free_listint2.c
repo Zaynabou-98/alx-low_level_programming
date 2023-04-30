@@ -10,14 +10,14 @@ listint_t *temp = *current;
 listint_t *current= *head;
 	if (head !== NULL)
 {
-	current = *head		
+	current = *head;	
 
 	while ((temp = current) != NULL)
 	{
 		
-		current = (*head)->next;
-		free(*head);
-		*head = temp;
+		current = (current)->next;
+		free(temp);
+	
 	}
 
 	*head = NULL;
