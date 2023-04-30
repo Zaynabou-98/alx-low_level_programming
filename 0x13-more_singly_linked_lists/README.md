@@ -1,1 +1,1 @@
-te is everywhere fk
+wak wak a 3ibad allah 

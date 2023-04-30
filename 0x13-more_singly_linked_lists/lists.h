@@ -12,7 +12,6 @@
  * Description: singly linked list node structure
  * for alx se project
  */
-
 typedef struct listint_s
 {
 	int n;
