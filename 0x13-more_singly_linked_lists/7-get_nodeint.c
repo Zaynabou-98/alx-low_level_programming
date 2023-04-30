@@ -8,16 +8,14 @@
  * Return: pointer to the wanted node, or NULL
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
-{
-	unsigned int i = 0;
-	while ( head)
+{unsigned int i = 0;
+	listint_t *temp = head;
 
-	if (i == index)
-return head;
-	
-		head = head->next;
+	while (temp && i < index)
+	{
+		temp = temp->next;
 		i++;
 	}
 
-	return NULL;
+	return (temp ? temp : NULL);
 }
