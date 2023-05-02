@@ -9,7 +9,7 @@
 size_t print_listint(const listint_t *h)
 {
 	size_t nm = 0;
-
+// loop
 	while (h != NULL)
 	{
 		printf("%d\n", h->n);
@@ -19,3 +19,4 @@ size_t print_listint(const listint_t *h)
 
 	return (nm);
 }
+//end
