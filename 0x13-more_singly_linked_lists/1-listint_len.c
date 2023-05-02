@@ -9,7 +9,7 @@
 size_t listint_len(const listint_t *h)
 {
 	size_t nm = 0;
-
+// condidtion
 	while (h != NULL)
 	{
 		nm++;
@@ -18,3 +18,4 @@ size_t listint_len(const listint_t *h)
 
 	return (nm);
 }
+// end
